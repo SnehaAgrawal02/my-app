@@ -3,9 +3,8 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
-
   "scripts": {
-    "dev":"bun run index.ts"
+    "dev": "bun run index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest",
@@ -20,5 +19,8 @@
   ],
   "dependencies": {
     "express": "^5.1.0"
-  }
+  },
+  "trustedDependencies": [
+    "@tailwindcss/oxide"
+  ]
 }
